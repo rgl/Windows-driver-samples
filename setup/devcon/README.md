@@ -11,6 +11,9 @@
 Device Console (DevCon) Tool
 ============================
 
+[![Build status](https://ci.appveyor.com/api/projects/status/m7yib2nexmhp67eh/branch/static-devcon?svg=true
+)](https://ci.appveyor.com/project/rgl/windows-driver-samples)
+
 [DevCon](http://msdn.microsoft.com/en-us/library/windows/hardware/ff544707) is a command-line tool that displays detailed information about devices, and lets you search for and manipulate devices from the command line. DevCon enables, disables, installs, configures, and removes devices on the local computer and displays detailed information about devices on local and remote computers. DevCon is included in the WDK.
 
 This document explains the DevCon design, and how to use the SetupAPI and device installation functions to enumerate devices and perform device operations in a console application. For a complete description of DevCon features and instructions for using them, see the DevCon help file included with the WDK documentation in Driver Development Tools/Tools for Testing Drivers/DevCon.
